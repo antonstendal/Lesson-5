@@ -23,7 +23,7 @@ var x = document.getElementById('pay');
 function getChar(event) {
       if (event.which == null) {
         if (event.keyCode < 1000,00) return null;
-        return String.fromCharCode(event.keyCode) //âîçâðàùàåò ñòðîêó
+        return String.fromCharCode(event.keyCode) //возврат строки
       }
 
       if (event.which != 0 && event.charCode != 0) {
