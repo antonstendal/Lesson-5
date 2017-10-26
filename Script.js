@@ -1,4 +1,4 @@
-//опредиление координат элемента
+//РѕРїСЂРµРґРёР»РµРЅРёРµ РєРѕРѕСЂРґРёРЅР°С‚ СЌР»РµРјРµРЅС‚Р°
 function getElementPosition(posOff)
 {
     var elem = document.getElementById(posOff);
@@ -18,12 +18,12 @@ function getElementPosition(posOff)
     return {"left":l, "top":t, "width": w, "height":h};
 }
 
-//‚вод цены в поле
+//Р’РІРѕРґ С†РµРЅС‹ РІ РїРѕР»Рµ
 var x = document.getElementById('pay');
 function getChar(event) {
       if (event.which == null) {
         if (event.keyCode < 1000,00) return null;
-        return String.fromCharCode(event.keyCode) //возвращает строку
+        return String.fromCharCode(event.keyCode) //ГўГ®Г§ГўГ°Г Г№Г ГҐГІ Г±ГІГ°Г®ГЄГі
       }
 
       if (event.which != 0 && event.charCode != 0) {
